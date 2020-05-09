@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AvailabilityChecker": {
+      "commandName": "Project",
+      "commandLineArgs": "\"--servicename=https://www.google.com --url=https://www.google.com --waitmilliseconds=50000 --slowthreshold=500 --slackwebhookurl=https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX --alertfrequency=20000"
+    }
+  }
+}
