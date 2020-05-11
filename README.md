@@ -50,3 +50,12 @@ It's simple and it's stupid but it works.
 I used this to figure out we need to add a prestop lifecycle hook to get zero 
 downtime deployments with Traefik [to fix
 this problem](https://blog.sebastian-daschner.com/entries/zero-downtime-updates-kubernetes).
+
+I also used it to find that our AWS Auto Scaling Groups were ungracefully terminating 
+nodes on us from automatic availability zone rebalancing.
+
+Here's what it looks like posting to Slack:
+
+<p align="center">
+  <img src="ReadmeImages/SlackMessages.png">
+</p>
